@@ -30,5 +30,4 @@ float SphereIntersect(vector<float> center, float radius, vector<float> ray_orig
 vector<float> NearestIntersectedObject(vector<Sphere> objects, vector<float> ray_origin,
 	vector<float> ray_direction);
 
-
-
+int FloatToAsciiIndex(float f, int AsciiNum);
